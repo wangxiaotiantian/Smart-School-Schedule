@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/roughjs@latest/dist/rough.js"></script>
+    <style>
+        body { background: #fffcf5; font-family: cursive; text-align: center; padding: 50px; }
+        .card { border: 2px solid #333; padding: 20px; display: inline-block; background: white; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 id="title">我的课程表 / Weekly Schedule</h2>
+        <canvas id="canvas" width="600" height="800"></canvas>
+    </div>
+    <script>
+        const rc = rough.canvas(document.getElementById('canvas'));
+        // AI 将自动生成绘图指令
+    </script>
+</body>
+</html>
